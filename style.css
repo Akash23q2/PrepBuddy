@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('htt"ps://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   padding: 0;
@@ -235,22 +235,32 @@ header ul li a:hover {
   border-radius: 10px;
   padding: 20px;
   transition: 0.5s;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   height: 170px;
+  opacity: 1;
+  
 }
 
 
+
+ 
+p{
+  color: black;
+}
+
 .bgcard{
-  background-color: lightgray;
-  z-index: 100000;
+background-color: grey !important;
+
+  z-index: -2;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: .8;
+  opacity: 0.6;
   position: absolute;
   transition: 0.5s;
+ 
 }
 
 .card:hover {
@@ -768,4 +778,7 @@ header ul li a:hover {
     border-radius: 50%;
   }
 
+h4{
+  color: white;
 }
+
