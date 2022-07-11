@@ -1,2 +1,2 @@
 # PrepBuddy
-An effort by me for aspirants :)
+An effort by me for Aspirants ^~^
